@@ -12,7 +12,11 @@ Ejecutar en Jupyter (Visual Studio Code), previamente instalar las librerías en
 # Cómo entrenar y evaluar
 Para entrenar basta con ejecutar los bloques de código dentro de la sección Entrenamiento. Previamente se deben haber generado el archivo yaml y haber separado las imágenes en los sets de entrenamiento y prueba (celdas anteriores).
 
-Para evaluar, se debe haber corrido las celdas anteriores, las cuales generan los pesos correspondientes.
+Para evaluar, se debe haber corrido las celdas anteriores, las cuales generan los pesos correspondientes. 
+
+Verificar que las rutas sean correctas, ya que al reanudar el entrenamiento pueden cambiar las rutas.
+
+Alternativamente, se pueden cargar los pesos, los cuales están disponibles en el .zip.
 
 # Cómo generar la tabla y el gráfico de métricas
 Ejecutar las celdas correspondientes de las secciones Evaluación y Guardado de resultados.
